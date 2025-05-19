@@ -16,3 +16,6 @@ def jugar():
             print("El número es mayor.")
         else:
             print("El número es menor.")
+
+if __name__ == "__main__":
+    jugar()
