@@ -3,7 +3,7 @@ import random
 def jugar():
     numero_secreto = random.randint(1, 100)
     adivinado = False
-    # Adherido Isuss intentos.
+    # Adherido Issues intentos.
     intentos = 0
 
     print("¡Bienvenido al  juego del número secreto!")
@@ -11,10 +11,10 @@ def jugar():
 
     while not adivinado:
         intento = int(input("Ingresa un número: "))
-        # Adherido Isuss intentos.
+        # Adherido Issues intentos.
         intentos = intentos + 1
         if intento == numero_secreto:
-            # Adherido Isuss intenros en print.
+            # Adherido Issues intenros en print.
             print(f"¡Felicidades! Adivinaste el número en {intentos} intentos.")
             adivinado = True
         elif intento < numero_secreto:
